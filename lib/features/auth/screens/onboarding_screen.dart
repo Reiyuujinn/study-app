@@ -225,6 +225,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 fontSize: 16,
                 fontWeight: FontWeight.w100),
             textAlign: TextAlign.center,
+            maxLines: 3,
+            overflow: TextOverflow.ellipsis,
           ),
         ],
       ),
